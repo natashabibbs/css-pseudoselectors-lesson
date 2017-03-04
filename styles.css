@@ -1,34 +1,14 @@
-#hoverMe {
-  width: 200px;
-  margin: auto;
-  background-color: steelblue;
-  margin-bottom: 64px;
+body {
+	background-color: green;
 }
 
-#hoverMe:hover {
-  width: 256px;
-  background-color: gray;
-  transition: background-color 0.5s, width 1s ease 0.5s;
+button {
+	background-color: purple;
 }
 
-#redButton {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  margin: auto;
-  background-color: purple;
 }
-
-#redButton:active {
-  background-color: red;
-}
-
-#redButton:hover {
-  color: white;
-}
-
-#main {
-  min-height: 100%;
-  text-align: center;
-  transition: background-color 1s;
+button:hover {
+	background-color: red;
+	font-size: 15px;
+	transition: background-color 0.9s;
 }
